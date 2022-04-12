@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Study cultures || {% block title %} {% endblock title %}</title>
+</head>
+<style>
+    .row {
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-right: calc(var(--bs-gutter-x) * -.5);
+        margin-left: calc(var(--bs-gutter-x) * -.5);
+    }
+</style>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../static/img/favicon3.png" alt="" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                Study Cultures
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/blogs">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/youtube">Youtube</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/privacy">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/about">About us</a>
+                    </li>
+
+            </div>
+        </div>
+    </nav>
+
+    {% block body %} {% endblock body %}
+
+
+
+    <footer class="text-center">
+        <div class="row bg-dark text-white">
+            <div class="col-md-3">
+                <img src="img/favicon.png" class="pull-left m-3" width=40% alt="">
+            </div>
+            <div class="col-md-6 mt-3">
+
+                <h1>
+                    About Program Hub
+                </h1>
+                <p class="text-justify">
+                    We are here to help you by providing useful tutorials, examples and resources.
+                    Here you can find the best and useful information related to HTML/HTML5, CSS/CSS3,
+                    JavaScript, Python, C sharph, Android App Development and more.
+                    We are trying to provide almost everything for web designer and developer as well as mobile app
+                    developer.
+                </p>
+            </div>
+
+
+            <div class="col-md-4">
+                <center>
+                    <hr>
+                    <h2>Contact Us</h2>
+                    <h3>Address:</h3>
+                    <span><a class="text-decoration-none" href="https://goo.gl/maps/HpPpNJdbk9fAGn7SA">
+                            <h5> Gandhi ji Ward,Hatta Dist. Damoh (MP)</h5>
+                        </a> </span>
+                    <h3>E-mail:</h3>
+                    <a class="text-decoration-none" href="mailto:faieemk444@gmail.com">
+                        <h5>faieemk444@gmail.com</h5>
+                    </a>
+                    <h3>Phone:</h3>
+                    <a class="text-decoration-none" href="tel:6260938756">+91-6260938756 , </a>
+                    <a class="text-decoration-none" href="tel:9630828383"> +91-9630828383</a>
+                </center>
+            </div>
+            <div class="col-md-3">
+                <center>
+                    <hr>
+                    <h2>Products</h2>
+                </center>
+                <div>
+                    <a class="text-decoration-none" href="about_developer.php">
+                        <h5>About Developer</h5>
+                    </a>
+                    <a class="text-decoration-none" href="service.html">
+                        <h5>Advertising</h5>
+                    </a>
+                    <a class="text-decoration-none" href="about-us.php">
+                        <h5>Help</h5>
+                    </a>
+                    <a class="text-decoration-none" href="admin/add-post.php">
+                        <h5>Become a Writter</h5>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <center>
+                    <hr>
+                    <h2>Company</h2>
+                </center>
+                <div>
+                    <a class="text-decoration-none" href="index.php">
+                        <h5>Home</h5>
+                    </a>
+                    <a class="text-decoration-none" href="courses.php">
+                        <h5>Courses</h5>
+                    </a>
+                    <a class="text-decoration-none" href="about-us.php">
+                        <h5>About</h5>
+                    </a>
+                    <a class="text-decoration-none" href="contect-us.php">
+                        <h5>Contact Us</h5>
+                    </a>
+                    <a class="text-decoration-none" href="privacy.php">
+                        <h5>Privacy Policy </h5>
+                    </a>
+                    <a class="text-decoration-none" href="T&C.php">
+                        <h5>Terms & Condition</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <center>
+                    <hr>
+                    <h2>Follow me on</h2>
+                    <div>
+                        <a href="https://touch.facebook.com/profile.php" target="blank"><i class="fa fa-facebook">
+                                Facebook</i></a> <br>
+                        <a href="https://www.instagram.com/unique_tech_officia/" target="blank"><i
+                                class="fa fa-instagram"> Instagram</i></a> <br>
+                        <a href="https://wa.me/6260938756" target="blank"><i class="fa fa-whatsapp"> WhatsApp</i></a>
+                        <br>
+                        <a href="https://www.youtube.com/channel/UCUkAUs2glNBfHq_1l1deFIQ/featured" target="blank"><i
+                                class="fa fa-youtube">YouTube</i></a><br>
+                        <a href="https://twitter.com/KhanFaieem?s=09" target="blank"><i
+                                class="fa fa-twitter">Twitter</i></a><br>
+                        <a href="https://in.pinterest.com/faieemk444/_saved/" target="blank"><i
+                                class="fa fa-pinterest">Pinterest</i></a><br>
+                        <a href="https://t.me/joinchat/fJ6_xvpmxOo1NjBl" target="blank"><i
+                                class="fa fa-telegram">Telegram</i></a>
+                    </div>
+                </center>
+            </div>
+            <div class="container pt-3">
+                <p>copyright &copy; by Study Culture. All Right Reserved from 2020 - 2022</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
